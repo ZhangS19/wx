@@ -5,7 +5,7 @@ Component({
    */
   properties: {
     searchText: {
-      type: String,
+      type: String, 
       value: ''
     },
     searchFlag: {
