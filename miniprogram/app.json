@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/info/info",
+    "pages/shop/shop",
+    "pages/me/me",
+    "pages/search-result/search-result",
+    "pages/topic/topic"
+  ],
+  "searchbar": {
+    "icoPath": "/source/home.png",
+    "placeHolder": "bananaa"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/info/info"
+      },
+      {
+        "pagePath": "pages/shop/shop"
+      },
+      {
+        "pagePath": "pages/me/me"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "cloudPath": "cloud://test-i375l.7465-test-i375l-1300033613/"
+}

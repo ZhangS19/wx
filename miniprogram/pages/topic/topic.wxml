@@ -1,0 +1,51 @@
+
+<searchbar id="SearchBar" searchText="{{searchText}}" bind:startSearch="startSearch" bind:cancelSearch="cancelSearch" bind:getInputText="getInputText" bind:clearSearch="clearSearch">
+</searchbar>
+<tabbar tabbar="{{tabbar}}"></tabbar> 
+
+<view class="block-title title-bar">
+  <view class="title-back"></view>
+  <text class="block-text">xx专栏</text>
+</view>
+
+<view class="maininfo-block">
+  <view class="top-block">
+    <view class="user-container">
+      <view class="userico">
+        <image class="head" src="/source/head@2x.png"></image>
+      </view>
+      <view class="username">xxxxxx</view>
+    <view class="date-container">
+      <text class="date">24小时30分钟小时前</text>
+    </view>
+  </view>
+  </view>
+  <view class="bot-block">
+    <view class="mainpic-container">
+    <image class="main-pic" src="/source/2.jpg"></image>
+    </view>
+    <view class="title-container">
+    <text class="info-title">xxxxxxxx</text>
+    </view>
+  </view>
+</view>
+
+<view class="info-block">
+  <view class="top-block">
+    <view class="user-container">
+      <view class="userico">
+        <image class="head" src="/source/head@2x.png"></image>
+      </view>
+      <view class="username">xxxxxx</view>
+    <view class="date-container">
+      <text class="date">24小时30分钟小时前</text>
+    </view>
+  </view>
+  </view>
+  <view class="bot-container">
+    <view class="bottitle-container">
+      <text class="bot-title">aaaaaaaaaaaaaaaaa</text>
+    </view>
+    <view class="botpic-container"><image class="side-pic" src="/source/picture@2x.png"></image></view>
+  </view>
+</view>

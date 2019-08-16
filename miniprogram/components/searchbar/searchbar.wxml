@@ -1,0 +1,8 @@
+<view class="searchbar-container">  
+  <view class="search-bar {{searchFlag?'insert-cancel':''}}">
+  <icon type="search" class="search-icon"></icon>
+    <input type="text" bindfocus='getFocus' bindinput="getInputText" bindconfirm="startSearch" confirm-type='search' placeholder="搜索" value="{{searchText}}"  />
+    <icon type="clear" wx:if="{{searchFlag}}" bindtap="clearSearchBar" class="clear-search-icon"></icon>
+  </view>
+  <view wx:if="{{searchFlag}}" bindtap='cancelSearch' class="cancel-search">取消</view>
+</view>

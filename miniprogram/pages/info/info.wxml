@@ -1,0 +1,185 @@
+
+<searchbar id="SearchBar" searchText="{{searchText}}" bind:startSearch="startSearch" bind:cancelSearch="cancelSearch" bind:getInputText="getInputText" bind:clearSearch="clearSearch">
+</searchbar>
+<tabbar tabbar="{{tabbar}}"></tabbar>
+
+<view class="block-title title-bar">
+  <view class="title-back"></view>
+  <text class="block-text">校内公告</text>
+</view>
+
+<view class="info-block b-block">
+  <view class="topinfo-container">
+  
+    <view class="topinfo-img-container">
+      <image class="topinfo-pic"></image>
+    </view>
+    <text class="topinfo-text">xxxxxxxxx</text>
+  </view>
+  <view class="botinfo-container">
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">xxxxxxxxxxxxx</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+  </view>
+  <view class="info-more-container"><text class="info-more">浏览更多</text></view>
+</view>
+
+<view class="block-title title-bar">
+  <view class="title-back"></view>
+  <text class="block-text">专栏文章
+</text>
+</view>
+
+<view class="info-block b-block">
+  <view class="topinfo-container">
+  
+    <view class="topinfo-img-container">
+      <image class="topinfo-pic"></image>
+    </view>
+    <text class="topinfo-text">xxxxxxxxx</text>
+  </view>
+  <view class="botinfo-container">
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">xxxxxxxxxxxxx</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+  </view>
+  <view class="info-more-container"><text class="info-more">浏览更多</text></view>
+</view>
+<view class="block-title title-bar">
+  <view class="title-back"></view>
+  <text class="block-text">专栏文章
+</text>
+</view>
+
+<view class="info-block b-block">
+  <view class="topinfo-container">
+  
+    <view class="topinfo-img-container">
+      <image class="topinfo-pic"></image>
+    </view>
+    <text class="topinfo-text">xxxxxxxxx</text>
+  </view>
+  <view class="botinfo-container">
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">xxxxxxxxxxxxx</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+  </view>
+  <view class="info-more-container"><text class="info-more">浏览更多</text></view>
+</view>
+<view class="block-title title-bar">
+  <view class="title-back"></view>
+  <text class="block-text">专栏文章
+</text>
+</view>
+
+<view class="info-block b-block">
+  <view class="topinfo-container">
+  
+    <view class="topinfo-img-container">
+      <image class="topinfo-pic"></image>
+    </view>
+    <text class="topinfo-text">xxxxxxxxx</text>
+  </view>
+  <view class="botinfo-container">
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">xxxxxxxxxxxxx</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+  </view>
+  <view class="info-more-container"><text class="info-more">浏览更多</text></view>
+</view>
+<view class="block-title title-bar">
+  <view class="title-back"></view>
+  <text class="block-text">专栏文章
+</text>
+</view>
+
+<view class="info-block b-block">
+  <view class="topinfo-container">
+  
+    <view class="topinfo-img-container">
+      <image class="topinfo-pic"></image>
+    </view>
+    <text class="topinfo-text">xxxxxxxxx</text>
+  </view>
+  <view class="botinfo-container">
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">xxxxxxxxxxxxx</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+  </view>
+  <view class="info-more-container"><text class="info-more">浏览更多</text></view>
+</view>

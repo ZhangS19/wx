@@ -1,0 +1,9 @@
+<view class='tabbar-box' style='background-color:{{tabbar.backgroundColor}}'>
+  <block wx:for="{{tabbar.list}}" wx:for-item="item" wx:key="{{item.pagePath}}">
+    <navigator class="tabbar-nav" url="{{item.pagePath}}"  open-type="switchTab" hover-class="navigator-hover">
+      <image class="tabbar-icon" src="{{item.selected ? item.selectedIconPath : item.iconPath}}"></image>
+      <text style="color:{{item.selected ? tabbar.selectedColor : tabbar.color}}">{{item.text}}</text>
+    </navigator>
+  </block>
+</view>
+<!-- style="color:{{item.selected ? tabbar.selectedColor : tabbar.color}}" -->

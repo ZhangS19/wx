@@ -1,0 +1,103 @@
+<!--index.wxml
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+<searchbar id="SearchBar" searchText="{{searchText}}" bind:startSearch="startSearch" bind:cancelSearch="cancelSearch" bind:getInputText="getInputText" bind:clearSearch="clearSearch">
+</searchbar>
+
+<view class="nav-container">
+  <view class="nav-wrap">
+    <view class="block-wrap">
+      <view class="cir-container">
+        <image class="cir" src="{{cloudPath}}source/info.png"> </image>
+        <view class="nav-ico"></view>
+      </view>
+      <text class="ico-text">资讯</text>
+    </view>
+    <view class="block-wrap">
+      <view class="cir-container">
+        <image class="cir" src="{{cloudPath}}source/social.png"></image>
+        <view class="nav-ico"></view>
+      </view>
+      <text class="ico-text">社区</text>
+    </view>
+    <view class="block-wrap">
+      <view class="cir-container">
+        <image class="cir" src="{{cloudPath}}source/shop.png"></image>
+        <view class="nav-ico"></view>
+      </view>
+      <text class="ico-text">商城</text>
+    </view>
+  </view>
+</view>
+<view class="block-title title-bar">
+  <view class="title-back"></view>
+  <text class="block-text">最新资讯</text>
+</view>
+<view class="info-block b-block">
+  <view class="topinfo-container">
+  
+    <view class="topinfo-img-container">
+      <image class="topinfo-pic"></image>
+    </view>
+    <text class="topinfo-text">xxxxxxxxx</text>
+  </view>
+  <view class="botinfo-container">
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">xxxxxxxxxxxxx</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+    <view class="botinfo-wrap">
+      <view class="text-box">
+        <text class="botinfo-text">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</text>
+      </view>
+      <view class="botinfo-pic"></view>
+    </view>
+  </view>
+  <view class="info-more-container"><text class="info-more">浏览更多</text></view>
+</view>
+<!--
+<view class="botnav-container">
+ <view class="bot-wrap">
+  <view class="botnav-wrap">
+    <image class="botnav-pic" src="/source/social.png"></image>
+    <text class="botnav-text">社区</text>
+  </view>
+  <view class="botnav-wrap">
+      
+    <image class="botnav-pic" src="/source/info@2x.png"></image>
+    <text class="botnav-text">资讯</text>
+
+  </view>
+  <view class="botnav-wrap">
+    <image class="botnav-pic" src="/source/HOME.png"></image>
+    <text class="botnav-text">主页</text>
+  </view>
+  <view class="botnav-wrap">
+    <image class="botnav-pic" src="/source/shop@2x.png"></image>
+    <text class="botnav-text">商城</text>
+  </view>
+  <view class="botnav-wrap">
+    <image class="botnav-pic" src="/source/MINE@2x.png"></image>
+    <text class="botnav-text">我的</text>
+  </view>
+  </view> 
+</view> -->
+<tabbar tabbar="{{tabbar}}"></tabbar>

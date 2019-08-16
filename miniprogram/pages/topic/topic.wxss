@@ -1,0 +1,138 @@
+/* miniprogram/pages/topic/topic.wxss */
+
+page {
+  background-color: #f7f7f7;
+}
+.block-title {
+  width: calc( 100% - 40);
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color:white;
+  border: solid 1px #EBEBEB;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+}
+.block-text {
+  width: 60px;
+  line-height: 30px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.maininfo-block {
+  width: calc(100% - 40px);
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px 15px 0 0;
+}
+.top-block {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px 15px 0 0;
+}
+
+.user-container {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  padding-left: 20px;
+}
+.head {
+  margin-top: 4px;
+  width: 36px;
+  height: 36px;
+}
+.userico {
+  display: inline-block;
+  float: left;
+  width: 45px;
+  height: 45px;
+
+}
+.username {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 18px;
+  
+}
+.date-container {
+  height: 30px;
+  margin-right: 30px;
+  display: inline-block;
+  float: right;
+}
+.date {
+  font-size: 15px;
+}
+.mainpic-container {
+  width: 100%;
+  height: 100px;
+}
+.main-pic {
+  width: 100%;
+  height: 100px;
+}
+.title-container {
+  font-size: 15px;
+  width: calc( 100% - 20px - 20px); 
+  word-wrap:break-word;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px;
+}
+.info-title {
+  font-size:18px;
+  word-wrap:break-word; 
+  height: 55px;
+  line-height: 55px;
+}
+.info-block {
+  width: calc(100% - 40px);
+  height: 120px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px 15px 0 0;
+}
+.bot-container {
+  display: inline-block;
+  width: 100%;
+  padding: 0px;
+  height: 75px;
+}
+.bottitle-container {
+  display: inline-block;
+  font-size: 15px;
+  width: calc( 100% - 20px - 80px); 
+  margin-left: 20px;
+  padding: 0px;
+  height: 75px;
+  float: left;
+}
+.bot-title {
+  font-size:18px;
+  word-wrap:break-word; 
+  display: inline-block;
+  height: 75px;
+  line-height: 75px;
+}
+.botpic-container {
+  float: right;
+  display: inline-block;
+  width: 55px;
+  height: 60px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.side-pic {
+  width: 55px;
+  height: 60px;
+}
